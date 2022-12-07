@@ -25,7 +25,35 @@
 
 <body style="background-color: #2F2A2A">
 
-    <head>
+    <header>
+
+        <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white-50 fixed-top">
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarExample01"
+        aria-controls="navbarExample01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarExample01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link text-white" aria-current="page" href="home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="menu">Menu</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
         <div class="container-fluid text-center bg-image"
             style="
       background-image: url('img/Latte_and_dark_coffee.jpg');
@@ -36,7 +64,7 @@
                 <img src="img/KARA.cr.png" class="img-fluid" alt="">
             </div>
         </div>
-    </head>
+    </header>
 
     <div class="container my-5 rounded" style="background-color: #FC7D08">
         <p class="text-center fs-4 p-4 fst-italic">Cafe seringkali menjadi tempat untuk mengerjakan tugas atau
@@ -55,9 +83,9 @@
             <hr>
         </div>
     </div>
-    <div class="container">
-        <div class="row justify-content-center text-light">
-            <h1 class="col-8 text-center mt-5 mb-4">Peminjaman Coworking Space</h1>
+    <div class="container mb-5">
+        <div class="row justify-content-center text-light mt-5 mb-4">
+            <h1 class="col-8 text-center">Peminjaman Coworking Space</h1>
             <form action="/menu" method="post" class="col-8">
                 <div class="mb-3">
                     <input type="text" class="form-control" id="nama" placeholder="Nama">
@@ -100,10 +128,15 @@
             </div>
         </div>
     </div> --}}
+    <br><br><br><br><br><br><br><br><br><br><br>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
-    </script>
+    <footer class="text-center text-lg-start text-muted" style="background-color: #FC7D08">
+        <div class="text-center p-4 text-black">
+            © 2022 Copyright:
+            <a class="text-reset fw-bold" href="https://www.instagram.com/kara.cr/?hl=en">KARA.cr</a>
+        </div>
+    </footer>
+
 </body>
 
 </html>

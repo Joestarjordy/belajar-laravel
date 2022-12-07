@@ -13,7 +13,7 @@
 
     <style>
         .form-control {
-            background-color: #FC7D08;
+            background-color: #2F2A2A;
         }
 
     </style>
@@ -68,11 +68,11 @@
             <form>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Username</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="email" class="form-control border border-warning" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <input type="password" class="form-control border border-warning" id="exampleInputPassword1">
                 </div>
                 <div class="d-grid gap-2">
                     <button type="submit" class="btn mt-2" style="background-color: #FC7D08">Login</button>

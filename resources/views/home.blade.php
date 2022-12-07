@@ -66,7 +66,7 @@
         </div>
     </header>
 
-    <div class="container my-5 rounded" style="background-color: #FC7D08">
+    <div class="container-md my-5 rounded" style="background-color: #FC7D08">
         <p class="text-center fs-4 p-4 fst-italic">Cafe seringkali menjadi tempat untuk mengerjakan tugas atau
             pekerjaan.
             Rata-rata

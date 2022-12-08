@@ -68,11 +68,11 @@
             <form>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Username</label>
-                    <input type="email" class="form-control border border-warning" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="email" class="form-control border border-warning text-white" style="background-color: #2F2A2A" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control border border-warning" id="exampleInputPassword1">
+                    <input type="password" class="form-control border border-warning text-white" style="background-color: #2F2A2A" id="exampleInputPassword1">
                 </div>
                 <div class="d-grid gap-2">
                     <button type="submit" class="btn mt-2" style="background-color: #FC7D08">Login</button>
@@ -88,7 +88,7 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
     </script>
 
-<br><br><br><br><br>
+<br><br><br>
 
 <footer class="text-center text-lg-start text-muted" style="background-color: #FC7D08">
     <div class="text-center p-4 text-black">

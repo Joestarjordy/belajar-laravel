@@ -88,24 +88,24 @@
             <h1 class="col-8 text-center">Peminjaman Coworking Space</h1>
             <form action="/menu" method="post" class="col-8">
                 <div class="mb-3">
-                    <input type="text" class="form-control" id="nama" placeholder="Nama">
+                    <input type="text" class="form-control text-black" id="nama" style="background-color: #FC7D08" placeholder="Nama">
                 </div>
                 <div class="mb-3">
-                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    <input type="email" class="form-control text-black" id="email" style="background-color: #FC7D08" placeholder="name@example.com">
                 </div>
                 <div class="mb-3">
-                    <input type="date" class="form-control" id="jadwal" placeholder="Jadwal">
+                    <input type="date" class="form-control text-black" id="jadwal" style="background-color: #FC7D08" placeholder="Jadwal">
                 </div>
                 <div class="mb-3">
                     <label for="start" class="form-label">Start</label>
-                    <input type="time" class="form-control" id="start" placeholder="Start">
+                    <input type="time" class="form-control text-black" id="start" style="background-color: #FC7D08" placeholder="Start">
                 </div>
                 <div class="mb-3">
                     <label for="end" class="form-label">End</label>
-                    <input type="time" class="form-control" id="end" placeholder="End">
+                    <input type="time" class="form-control text-black" id="end" style="background-color: #FC7D08" placeholder="End">
                 </div>
                 <div class="mb-3">
-                    <input type="number" class="form-control" id="jumlah" placeholder="Jumlah Pemakai">
+                    <input type="number" class="form-control text-black" id="jumlah" style="background-color: #FC7D08" placeholder="Jumlah Pemakai">
                 </div>
                 <div class="mb-3 d-flex flex-row-reverse">
                     <button type="submit" class="btn " style="background-color: #FC7D08">Next</button>

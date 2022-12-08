@@ -83,7 +83,7 @@
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content border border-warning" style="background-color: #2F2A2A">
-        <div class="">
+        <div class="ms-3 mt-1">
           <h1 class="modal-title fs-5 text-white p-1" id="namaModal">Nama : Muhammad Rhobith</h1>
           <h1 class="modal-title fs-5 text-white p-1" id="emailModal">Email : support@gmail.com</h1>
           <h1 class="modal-title fs-5 text-white p-1" id="jadwalModal">Jadwal : 2022-11-31</h1>
@@ -134,7 +134,7 @@
             </div>
         </div>
         </div>
-        <div class="d-flex flex-row-reverse p-3 gap-3">
+        <div class="d-flex flex-row-reverse p-3 gap-3 mb-1">
           <button type="button" class="btn text-white" style="background-color: #FC7D08" data-bs-dismiss="modal">Decline</button>
           <button type="button" class="btn text-white" style="background-color: #FC7D08">Accept</button>
         </div>
